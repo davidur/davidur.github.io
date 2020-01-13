@@ -53,6 +53,9 @@
           <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
         </li>
       </ul>
@@ -69,7 +72,8 @@
         <div class="subheading mb-5">Portland, OR · (310) 721-5215 ·
           <a href="mailto:dus792@gmail.com">dus792@gmail.com</a>
         </div>
-        <p class="lead mb-5"> Engineer proficient in leveraging and enabling software tools for revealing insights from data that provide tangible business value. Passionate in preparing, exploring and analyzing data communicate value to stakeholders, with the programming skillset and a statistical mindset.</p>
+        <p class="lead mb-5"> Engineer proficient in leveraging and enabling software tools for revealing insights from data that provide tangible business value. 
+		Passionate in building tools that prepare, explore and analyze data to facilitate communicating value to stakeholders, and working with a team to automate such solutions</p>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/david-urdaneta/">
             <i class="fab fa-linkedin-in"></i>
@@ -89,23 +93,58 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Senior Software Engineer, Intel <img src="img/intel_logo.png" alt="intel_logo.png" width="40" height="30"/> </h3>
-            <div class="subheading mb-3">Platform Engineering Solutions Group</div>
-			<p>Develop and maintain timing analysis flow managing third party software tools (Synopsys).  Customize flow for key Intel projects that account for over 85% of Intel’s revenue (Devices, Server and Client).  This includes testing, validation and enablement of Static Timing Analysis on Intel designs.</p>
-			<p>Own flow functionality for the Device Development Group, 10th Gen CPU. Developed and supported features (include dynamic voltage scaling, database extraction requirements), interface between program manager and designers.</p>
-			<p>Developed and implemented architecture for dynamic scenario runs with archive manager, reducing related bugs by 70%, reducing lines of code by 95% when compared to previous system. (Perl)</p>
-			<p>Developed and implemented design system agnostic infrastructure. Flow abstracted from design system, reducing need for double maintenance, freeing 50% bandwidth of 2 team members. (Perl)</p>
-			<p>Reduced runtime of flow from 22hours to 6hours by optimizing queries and parallelizing sections of flow. Dozens of circuit designers launched runs on a weekly basis and cut next day results to same day results, saving in the order of hundreds of ours of waiting time.</p>
-			<p>0 issues due to tool for server, devices and client projects since I joined team.</p>
+            <h3 class="mb-0">Senior Software Engineer<img src="img/intel_logo.png" alt="intel_logo.png" width="50" height="40"/></h3>
+            <div class="subheading mb-3"><a href="https://www.intel.com/content/www/us/en/homepage.html">Intel</a>, Infrastructure and Platform Solutions Group, Hillsboro, OR</div>
+			<p>Responsible for developing, testing, valdiating and enabling Static Timing Analysis (STA) flow 
+			for key Intel projects that account for over 85% of Intel’s revenue (Devices, Server and Client). Developed on Perl and tcl/tk</p>
+			<p>Architected and implemented design system agnostic infrastructure, by abstracting all dependencies of flow on environment and design system to a static interface layer, 
+			reducing maintenance for multiple design systems, freeing 50% bandwidth of 2 team members (Perl)</p>
+			<p>Reduced runtime of STA flow for Device project from 22 hours to 6 hours by optimizing design queries and parallelizing sections of flow. 
+			Dozens of circuit designers launched runs on a weekly basis, cutting wait time from overnight to same day, saving hundreds of hours of wait time per year</p>
+			<p>No tool related issues on owned projects exercising STA flow (Server Xeon Skylake, Device Tigerlake)</p>
+			<p>Developed and implemented architecture for dynamic scenario runs with archive manager, reducing related bugs by 70%, 
+			reducing lines of code by 95% when compared to previous system (Perl)</p>
+			<p>Ramped up incoming full time teammate and enabled to support major project after 3 months</p>
+			<p>Designed and implemented regression suite for validating flow on dozens of Intel designs, reducing debugging 
+			and increasing the reliance on tool results. Regression caught 30% of tool bugs due to issues anticipated by regression (Perl)</p>
+			<p>Currently own STA flow functionality for 10th Gen CPU, cross functional role</p>
+			<!-- 
 			<p>First line support for server group, facilitating the successful tape out of Xeon Skylake</p>
-			<p>Designed and implemented regression suite for validating tool on Intel designs, reducing developer’s time spent on debugging and increasing the reliance on tool results. Ticket bug rate on tool dropped 20% after enabling regression, due to issues anticipated by regression. (Python)</p>
-			<p>Developed a code statistics analysis tool of our flow, which determines redundant and overwritten code, reports and notifies user whenever code is checked in (Python)</p>
+			<p>Owned STA flow functionality for the Device 9th gen CPU, Server Xeon Skylake, which succesfully taped in without any tool issues. </p>
+			<p>Developed a code statistics analysis tool of our flow, which determines redundant and overwritten code, 
+			reports and notifies user whenever code is checked in (Python)</p>
+			<p>Main Full Chip timing tool developer</p>
+			<p>Developed and supported features (include dynamic voltage scaling, database extraction requirements, flexible hierarchy), 
+			interface between program manager and designers.</p>
+			-->
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Jun-Sep/2015 (Intern), Feb/2016-Present</span>
           </div>
         </div>
 
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+		  <h3 class="mb-0">Data Engineering Intern</h3>
+		  <div class="subheading mb-3"><a href="http://home.infn.it/it/">National Institute of Nuclear Physics in Italy, Calgary, Italy</a></div>
+		  <p>Performed analysis on LHC collected data on the χb particle with C++, contributing to 
+		  a new understanding of the characteristics of the χb particle, and to the publication of papers in this topic</p>
+		  </div>
+		<div class="resume-date text-md-right">
+            <span class="text-primary">Jun/2013-Sep/2013</span>
+        </div>
+		</div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+		  <h3 class="mb-0">Undergraduate Research Assistant</h3>
+		  <div class="subheading mb-3"><a href="https://www.pa.ucla.edu/">UCLA Physics and Astronomy, Los Angeles, CA</a></div>
+		  <p>Performed data analysis on collected data from cosmic rays in Antarctica, using C++, and contributed to 
+		  publication of papers for the calculation of cosmic rays’ energy (during school and as summer intern).</p>
+		  </div>
+		<div class="resume-date text-md-right">
+            <span class="text-primary">Sep/2011-Sep/2013</span>
+        </div>
+	    </div>		
       </div>
 
     </section>
@@ -164,11 +203,14 @@
             <img src="img/cpp_logo.png" alt="cpp_logo.png" width="60" height="60"/>
           </li>
           <li class="list-inline-item">
-            <img src="img/git_logo.png" alt="git_logo.png" width="60" height="40"/>
+            <img src="img/git_logo.png" alt="git_logo.png" width="60" height="30"/>
           </li>
         </ul>
+		<p>MATLAB</p>
+		<p>R</p>
+		<p>tcl/tk</p>
 
-        <div class="subheading mb-3">Workflow</div>
+        <div class="subheading mb-3">Technical Skills</div>
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-check"></i>
@@ -188,17 +230,21 @@
           <li>
 		  <i class="fa-li fa fa-check"></i>
             Predictive Modeling</li>			
+          <li>
+		  <i class="fa-li fa fa-check"></i>
+            Cross-Functional team experience</li>			
           <li>	
+          <p></p>		  
         </ul>
 	    <div class="subheading mb-3">Spoken languages</div>
-		<ul class="fa-ul mb-0">
-		<p>Spanish Fluent <img src="img/spain_flag.png" alt="spain_flag.png" width="30" height="25"/></p>
-		<p>German Fluent <img src="img/german_flag.png" alt="german_flag.png" width="30" height="25"/></p>
-		<p>France Advanced <img src="img/france_flag.png" alt="france_flag.png" width="30" height="25"/></p>
-		<p>Italian Advanced <img src="img/italy_flag.png" alt="italy_flag.png" width="30" height="25"/></p>
-		<p>Korean Beginner <img src="img/korea_flag.png" alt="korea_flag.png" width="30" height="25"/></p>
-		</div>
-		</ul>
+		<!-- <ul class="fa-ul mb-0">-->
+			<p><img src="img/spain_flag.png" alt="spain_flag.png" width="26" height="21"/> Spanish Fluent</p>
+			<p><img src="img/german_flag.png" alt="german_flag.png" width="23" height="23"/> German Fluent</p>
+			<p><img src="img/france_flag.png" alt="france_flag.png" width="25" height="25"/> French Advanced</p>
+			<p><img src="img/italy_flag.png" alt="italy_flag.png" width="25" height="30"/> Italian Advanced</p>
+			<p><img src="img/korea_flag.png" alt="korea_flag.png" width="30" height="20"/> Korean Beginner</p>
+		<!-- </ul>-->
+	  </div>
     </section>
 
     <hr class="m-0">
@@ -208,30 +254,44 @@
         <h2 class="mb-5">Interests</h2>
 		<li>
 		<i class="fa-li fa fa-check"></i>
-            Tennis</li>
+            Tennis <img src="img/tennis.png" width="20" height="20"/> </li>
         <li>
 		<i class="fa-li fa fa-check"></i>
-            Soccer</li>
+            Soccer <img src="img/soccer.png" width="20" height="20"/> </li>
         <li>
 		<i class="fa-li fa fa-check"></i>
-            Guitar</li>
+            Guitar <img src="img/guitar.png" width="20" height="20"/> </li>
         <li>
 		<i class="fa-li fa fa-check"></i>
-            Jiu-Jitsu</li>
+            Salsa <img src="img/salsa.png" width="15" height="20"/> </li>
         <li>
 		<i class="fa-li fa fa-check"></i>
-            Psychology</li>
+            Chamber Choir <img src="img/mic.png" width="20" height="20"/> </li>
         <li>
 		<i class="fa-li fa fa-check"></i>
-            Documentaries</li>
+            Documentaries <img src="img/film.png" width="20" height="20"/> </li>
         <li>
 		<i class="fa-li fa fa-check"></i>
-            Hiking</li>
+            Hiking <img src="img/hiking.png" width="20" height="20"/></li>
       </div>
     </section>
 
     <hr class="m-0">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
+	  <div class="w-100">
+	    <h2 class="mb-5">Projects</h2>
+		<p><a href="https://github.com/davidur/DSProjects/tree/master/TwitterAnalysis">Twitter sentiment analysis of particular terms and phrases, establishing relationships between location and mood with applications such as 
+		online advertising and brand reputation, by accessing the twitter API using python (public dataset, ~1M tweets)</a></p>
+		<p><a href="https://github.com/davidur/DSProjects/tree/master/BlackFriday">Black Friday Purchase Prediction by exploring customers features per purchase and modeling purchase amount per customer with python libraries, 
+		for applications such as pricing strategy (public dataset, ~0.5M customers)</a></p>
+		<p><a href="https://github.com/davidur/DSProjects/tree/master/LoanPrediction">Loan Eligibility Prediction by exploring loan requests features using pandas/Seaborn for data exploration & cleaning, 
+		Scikit’s logistic regression and XGBoost classifier for prediction to reduce number of unpaid loans (public dataset, ~100K loan applications)</a></p>
+		<p>Classification of ocean microbes based on cell profile in water sample using R. Trained and compared SVM and Random Forest 
+		classification algorithms (University of Washington dataset, ~100K profiles)</p>
+	  </div>
+    </section>
 
+    <hr class="m-0">
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
       <div class="w-100">
         <h2 class="mb-5">Awards &amp; Certifications</h2>
@@ -246,14 +306,18 @@
 			<p><a href="https://www.coursera.org/account/accomplishments/verify/BZVGDGKGW6EX">Structuring Machine Learning Projects</a></p>
 			<p><a href="https://verify.lagunita.stanford.edu/SOA/c2280ba420714c2db5249b7f89363df8/">Statistical Learning</a></p>
           <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Math olympiads</li>
-			<p>1st place Venezuela National Math Olympiad 4 years of high school: 2006,2007,2008,2009</p>
-			<p>Participated International Math Olympiad 2009 Spain</p>
-          <li>
 		    <i class="fa-li fa fa-trophy text-warning"></i>
             Intel Department Recognition Awards</li>
-          <li>
+			<p>Implementing all major Server Design Group timing flow features for Xeon Skylake product</p>
+			<p>"The effort significally reduced the need for project overrides for SDG and beyond. This was a six month long process that required 
+			understanding fullchip timing flow usage in several major projects, organically incorporating SDG features, 
+			and validation in different usage modes."</p>
+           <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Math olympiads</li>
+			<p>1st place Venezuela National Math Olympiad 4 years of high school: 2006,2007,2008,2009 <img src="img/gold.png" width="20" height="20"/></p>
+			<p>Bronze medal Caribbean and Central American Math Olympiad 2008 <img src="img/bronze.png" width="20" height="20"/></p>
+			<p>Represented Venezuela in International Math Olympiad 2009, 2010</p>
         </ul>
       </div>
     </section>
