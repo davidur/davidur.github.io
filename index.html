@@ -74,8 +74,9 @@
         <div class="subheading mb-5">Portland, OR · (310) 721-5215 ·
           <a href="mailto:dus792@gmail.com">dus792@gmail.com</a>
         </div>
-        <p class="lead mb-5"> Engineer proficient in leveraging, enabling and validating software tools for revealing insights from data that provide tangible business value. Passionate in building tools and infrastructure that prepare, 
-		explore and analyze data with value to stakeholders, and working with a team to automate such solutions.</p>
+        <p class="lead mb-5">Engineer proficient in designing, implementing, deploying and maintaining cloud
+            based containerized data intensive applications. Passionate in optimizing cloud workflows and
+            architecting cloud solutions.</p>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/david-urdaneta/">
             <i class="fab fa-linkedin-in"></i>
@@ -95,20 +96,48 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Senior Software Engineer<img src="img/intel_logo.png" alt="intel_logo.png" width="50" height="40"/></h3>
+            <h3 class="mb-0">Software Development Engineer</h3>
+            <div class="subheading mb-3"><a href="https://aws.amazon.com/medialive/">Amazon Web Services - MediaLive</a>, Portland, OR</div>
+            <p>• Develop and support the microservice architecture for AWS MediaLive, a broadcast-grade live video processing service.
+                Responsible for entire feature lifecycle (design, implementation, deployment and maintenance).</p>
+            <p>• Designed and implemented architecture to allow high throughput container settings validation.
+                Implemented web servers that validate all schemas on container agents in front of load balancer that dispatches
+                validation requests, and created template to automatically deploy architecture across all regions.
+                This was a key feature requested by the largest revenue customer (over 20% of service’s revenue),
+                and received organization-wide recognition for this delivery. </p>
+            <p>• Rearchitected service’s channels to allow output through customer’s private network instead of the public internet.
+                This feature reduces video latency over 20%, provides compliance to customers that must keep traffic within private network.
+                This was a key requirement for winning new customer who is now live and represents over 10% of service’s revenue, and
+                is currently used by over 100 customers.</p>
+            <p>• Designed and implemented system that notifies customers when their channels’ instance would go through a patch
+                update and that switches their channels’ output to an unaffected availability zone.
+                Worked with cross functional teams (dashboard team, instance notification team, senior management)
+                to choose appropriate design and coordinate release.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Mar/2020-Present</span>
+          </div>
+        </div>
+
+       <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Software Engineer</h3>
             <div class="subheading mb-3"><a href="https://www.intel.com/content/www/us/en/homepage.html">Intel</a>, Infrastructure and Platform Solutions Group, Hillsboro, OR</div>
-			<p>Responsible for developing, testing, validating and enabling Static Timing Analysis (STA) flow 
-			for key Intel projects that account for over 85% of Intel’s revenue (Devices, Server and Client). Developed on Perl and tcl/tk.</p>
-			<p>Redesigned flow to be design system agnostic, by abstracting all dependencies of flow on environment and design system to a static interface layer, reducing
-			maintenance for multiple design systems to single file, freeing 25% bandwidth directed to such maintenance of multiple team members.</p>
-			<p>Reduced runtime of STA flow for Device project from 22 hours to 6 hours by optimizing design queries and parallelizing sections of flow. 
-			Dozens of circuit designers launch runs on a weekly basis, cutting wait time from overnight to same day, saving hundreds of hours of wait time per year.</p>
-			<p>No tool related issues found after tape-in on owned projects exercising STA flow  (Server Xeon Skylake, Device Tigerlake).</p>
-			<p>Developed and implemented architecture for dynamic scenario runs with archive manager, removing the need to create new tool per scenario and 
-			reducing lines of code by 95% when compared to previous system (Perl).</p>
-			<p>Ramped up incoming full-time teammate to support major project after 3 months.</p>
-			<p>Designed and implemented regression suite for validating flow on dozens of Intel designs, reducing debugging efforts and increasing 
-			quality on tool results. Over 30% of tool bugs have been anticipated by regression system and fixed before flow release (Perl).</p>
+			<p>• Responsible for developing, testing, validating and enabling Static Timing Analysis (STA) flow
+			    for key Intel projects that account for over 85% of Intel’s revenue (Devices, Server and Client). Developed on Perl and tcl/tk.</p>
+			<p>• Redesigned flow to be design system agnostic, by abstracting all dependencies of flow on environment
+                and design system to a static interface layer, reducing maintenance for multiple design systems to single file,
+                freeing 25% bandwidth directed to such maintenance of multiple team members.</p>
+			<p>• Reduced runtime of STA flow for Device project from 22 hours to 6 hours by optimizing design queries and parallelizing sections of flow.
+			    Dozens of circuit designers launch runs on a weekly basis, cutting wait time from overnight to same day,
+                saving hundreds of hours of wait time per year.</p>
+			<p>• No tool related issues found after tape-in on owned projects exercising STA flow  (Server Xeon Skylake, Device Tigerlake).</p>
+			<p>• Developed and implemented architecture for dynamic scenario runs with archive manager, removing the need to
+                create new tool per scenario and reducing lines of code by 95% when compared to previous system (Perl).</p>
+			<p>• Ramped up incoming full-time teammate to support major project after 3 months.</p>
+			<p>• Designed and implemented regression suite for validating flow on dozens of Intel designs,
+                reducing debugging efforts and increasing quality on tool results. Over 30% of tool bugs have
+                been anticipated by regression system and fixed before flow release (Perl).</p>
 			<!-- 
 			<p>Currently own STA flow functionality for 10th Gen CPU, cross functional role</p>
 			<p>First line support for server group, facilitating the successful tape out of Xeon Skylake</p>
@@ -121,7 +150,7 @@
 			-->
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">Jun-Sep/2015 (Intern), Feb/2016-Present</span>
+            <span class="text-primary">Jun-Sep/2015 (Intern), Feb/2016-Mar/2020</span>
           </div>
         </div>
 
@@ -193,6 +222,9 @@
         <div class="subheading mb-3">Programming Languages &amp; Tools</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
+            <img src="img/scala_logo2.png" alt="scala_logo2.png" width="40" height="60"/>
+          </li>
+          <li class="list-inline-item">
             <img src="img/python_logo.png" alt="python_logo.png" width="40" height="40"/>
           </li>
           <li class="list-inline-item">
@@ -225,7 +257,15 @@
         <ul class="fa-ul mb-0">
 		  <li>
 		    <i class="fa-li fa fa-check"></i>
-            Version Control (git)</li>
+            Docker and Container Orchestration</li>
+		  <li>
+		  <li>
+		    <i class="fa-li fa fa-check"></i>
+            AWS services: S3, EC2, ECS, Lambda, Kinesis, DynamoDB, IAM, SQS, SNS, ELB, VPC, CloudWatch</li>
+		  <li>
+		  <li>
+		    <i class="fa-li fa fa-check"></i>
+            Version Control (git, Bitbucket)</li>
 		  <li>
 		    <i class="fa-li fa fa-check"></i>
             Object-Oriented Programming</li>
@@ -283,7 +323,7 @@
             Soccer <img src="img/soccer.png" width="20" height="20"/> </li>
         <li>
 		<i class="fa-li fa fa-check"></i>
-            Guitar <img src="img/guitar.png" width="20" height="20"/> </li>
+            Flamenco <img src="img/guitar.png" width="20" height="20"/> </li>
         <li>
 		<i class="fa-li fa fa-check"></i>
             Salsa <img src="img/salsa.png" width="15" height="20"/> </li>
@@ -321,6 +361,11 @@
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
+            AWS Certifications:</li>
+			<p><a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/">AWS Certified Solutions Architect – Associate</a></p>
+		  <li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
             Coursera certifications:</li>
 			<p><a href="https://www.coursera.org/account/accomplishments/verify/SQDURYD3A42X">Practical Predictive Analytics: Models and Methods</a></p>
 			<p><a href="https://www.coursera.org/account/accomplishments/verify/YZYRGUN2Z82K">Data Manipulation at Scale: Systems and Algorithms</a></p>
@@ -330,20 +375,20 @@
 		  <li>
 		    <i class="fa-li fa fa-trophy text-warning"></i>
             Stanford certifications:</li>
-			<p><a href="https://verify.lagunita.stanford.edu/SOA/c2280ba420714c2db5249b7f89363df8/">Statistical Learning</a></p>
+			<p><a href="https://online.stanford.edu/courses/sohs-ystatslearning-statistical-learning">Statistical Learning</a></p>
           <li>
 		    <i class="fa-li fa fa-trophy text-warning"></i>
             Intel Department Recognition Awards</li>
 			<p>Implementing all major Server Design Group timing flow features for Xeon Skylake product</p>
-			<p>"The effort significally reduced the need for project overrides for SDG and beyond. This was a six month long process that required 
-			understanding fullchip timing flow usage in several major projects, organically incorporating SDG features, 
+			<p>"The effort significantly reduced the need for project overrides for SDG and beyond. This was a six month long process that required
+			understanding full-chip timing flow usage in several major projects, organically incorporating SDG features,
 			and validation in different usage modes."</p>
            <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
             Math olympiads</li>
 			<p>1st place Venezuela National Math Olympiad 4 years of high school: 2006,2007,2008,2009 <img src="img/gold.png" width="20" height="20"/></p>
 			<p>Bronze medal Caribbean and Central American Math Olympiad 2008 <img src="img/bronze.png" width="20" height="20"/></p>
-			<p>Represented Venezuela in International Math Olympiad 2009, 2010</p>
+			<p>Represented Venezuela in International Math Olympiad 2008, 2010</p>
         </ul>
       </div>
     </section>
